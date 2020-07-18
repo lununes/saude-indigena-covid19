@@ -99,7 +99,7 @@ b, strong {font-weight: 700;}
 /*Série 3*/
 
 .serie3 a {
-  color: var(--main-color4);
+  color: var(--main-color3);
   transition: 0.5s;
   font-weight: 500;
 }
@@ -400,9 +400,15 @@ b, strong {font-weight: 700;}
 }
 
 #intro .intro-text {
-  padding-top: 15%;
+  padding-top: 10%;
   text-align: center;
   vertical-align: top;
+  background-image: url("../img/bg-topo.png"); /* The image used */
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center 100px;
+  height: 600px;
 }
 
 /* @media (min-width: 1600px) { 
@@ -431,7 +437,7 @@ b, strong {font-weight: 700;}
 
 #intro h2 {
   font-family: 'Montserrat', sans-serif;
-  color: var(--main-color1);
+  color: var(--main-color4);
   margin: 30px 0;
   padding: 0 15px;
   font-size: 48px;
@@ -511,7 +517,7 @@ b, strong {font-weight: 700;}
 }
 
 #intro .headline-small.serie3 {
-  background: var(--main-color4);
+  background: #ff6600;
   color: var(--white-color);
 }
 

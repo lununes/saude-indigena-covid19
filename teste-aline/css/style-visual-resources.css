@@ -148,7 +148,7 @@ Accordion
 .serie3 .accordion a.collapsed:focus
  {color: var(--main-color4-over);}
 
-.serie3 .accordion a.collapsed {color: var(--main-color4);}
+.serie3 .accordion a.collapsed {color: var(--main-color2);}
 
 .serie3 .accordion .fa-times {position: relative;}
 
@@ -171,7 +171,7 @@ Box de Citação Curta
 .box-quote p {
     font-size: 15px;
     font-style: italic;
-    color:var(--main-color1) !important;
+    color:var(--main-color2) !important;
 }
 
 .box-quote p.circle {color: #fff !important;}
@@ -1964,7 +1964,7 @@ Tabela
 /*Série 3*/
 
 .table-responsive.serie3 th {
-  background-color: var(--main-color4);
+  background-color: var(--main-color2);
   color: #fff;
   border:1px solid var(--main-color4-pressed);
 }
@@ -1980,23 +1980,24 @@ Tabs
 /*Série3*/
 
 .abas.serie3 .nav-tabs {
-    border-color: var(--main-color4);
+    border-color: var(--main-color2);
 }
 
 .abas.serie3 .nav-tabs .nav-item.show .nav-link, 
 .abas.serie3  .nav-tabs .nav-link.active {
-    color: #495057;
+    color: var(--main-color2);
+    font-weight: bold;
     background-color: #fff;
-    border-color: var(--main-color4) var(--main-color4) var(--white-color);
+    border-color: var(--main-color2) var(--main-color2) var(--white-color);
 }
 
 .abas.serie3  .nav-tabs .nav-link:focus, 
 .abas.serie3  .nav-tabs .nav-link:hover {
-   border-color: var(--main-color4) var(--main-color4) var(--white-color);
+   border-color: var(--main-color2) var(--main-color2) var(--white-color);
 }
 
 .abas.serie3 .tab-content {
-    border: 1px solid var(--main-color4);
+    border: 1px solid var(--main-color2);
     border-top: none;
     background: var(--white-color);
 }
@@ -2235,7 +2236,7 @@ Timeline
 .cd-timeline__content {
   position: relative;
   margin-left: 60px;
-  background: var(--white-color);
+  background: #fbf4e6;
   border-radius: 0.25em;
   padding: 1em;
   box-shadow: 5px 3px 6px rgba(0,0,0, 0.2);
