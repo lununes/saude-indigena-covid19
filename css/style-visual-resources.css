@@ -368,6 +368,10 @@ blockquote {
   font-size: 20px;
 }
 
+.box-quote strong {
+  color: var(--laranja);
+}
+
 .box-quote .source {
   font-size: 11px;
 }
@@ -2098,6 +2102,26 @@ Lista Simples
   width: 20px;
   height: 20px;
   background: transparent url("../img/ic-list-bullet.svg") no-repeat 0 0;
+  float: left;
+  margin-right: 10px;
+  margin-top: 3px;
+}
+
+.obj-lista .list-group-item i.icon-bullet-sc {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: transparent url("../img/ic-list-bullet-sc.svg") no-repeat 0 0;
+  float: left;
+  margin-right: 10px;
+  margin-top: 3px;
+}
+
+.obj-lista .list-group-item i.icon-bullet-yt {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: transparent url("../img/ic-list-bullet-sc.svg") no-repeat 0 0;
   float: left;
   margin-right: 10px;
   margin-top: 3px;
