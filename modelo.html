@@ -18,8 +18,9 @@
   <meta charset="utf-8">
   <title>Modelo de Recursos Visuais | Saúde Indígena</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta name="robots" content="noindex" />
   <meta content="Ciência, Fiocruz, Curso, Ciência Aberta" name="keywords">
-  <meta content="" name="description">
+  <meta content="Guia dos recursos visuais do curso Saúde Indígena" name="description">
 
   <!--Font Awesome-->
   <script src="https://kit.fontawesome.com/8bfaea11f7.js" crossorigin="anonymous"></script>
@@ -40,9 +41,9 @@
   <!-- Biblioteca CSS -->
   <link href="lib/animate/animate.min.css" rel="stylesheet">
   <link href="https://unpkg.com/ionicons@4.4.2/dist/css/ionicons.min.css" rel="stylesheet">
-  <!--Ionicons-->
   <link href="lib/aos/aos.css" rel="stylesheet">
   <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+  <link href="lib/audio/dist/css/green-audio-player.css" rel="stylesheet">
 
   <!-- CSS geral das aulas e recursos visuais -->
   <link rel="stylesheet" href="css/style.css">
@@ -160,12 +161,14 @@
                   <a class="dropdown-item" href='#topico7'>Imagens Full</a>
                   <a class="dropdown-item" href='#topico8'>Lista</a>
                   <a class="dropdown-item" href='#topico9'>Modal</a>
-                  <a class="dropdown-item" href='#topico10'>Slider</a>
-                  <a class="dropdown-item" href='#topico11'>Tabela</a>
-                  <a class="dropdown-item" href='#topico12'>Textos e imagens</a>
-                  <a class="dropdown-item" href='#topico13'>Timeline Vertical</a>
-                  <a class="dropdown-item" href='#topico14'>Timeline Zigzag</a>
-                  <a class="dropdown-item" href='#topico15'>Timeline Horizontal</a>
+                  <a class="dropdown-item" href='#topico10'>Podcast</a>
+                  <a class="dropdown-item" href='#topico11'>Slider</a>
+                  <a class="dropdown-item" href='#topico12'>Tabela</a>
+                  <a class="dropdown-item" href='#topico13'>Textos e imagens</a>
+                  <a class="dropdown-item" href='#topico14'>Timeline Vertical</a>
+                  <a class="dropdown-item" href='#topico15'>Timeline Zigzag</a>
+                  <a class="dropdown-item" href='#topico16'>Timeline Horizontal</a>
+                  <a class="dropdown-item" href='#topico17'>Vídeo</a>
                 </div>
               </div>
           </div>
@@ -574,31 +577,31 @@
             <p>Neste exemplo, para cada coluna criou-se um accordion:</p>
 
             <!--Accordion com imagens-->
-            <div class="row mb-3">
+            <div class="row justify-content-center mb-3">
               <div class="col-12">
                 <p class="orientacao align-self-center text-center mt-5"><i class="far fa-hand-point-down"></i> Clique
                   nas imagens para visualizar as informações.</p>
               </div>
-              <div class="col-12 col-md-4 mt-3 mb-3">
+              <div class="col-11 col-md-4 p-lg-4 mb-5 mb-md-0">
                 <!--Accordion 1-->
-                <ul id="accordion-foto-hover" class="accordion accordion-foto wow fadeInUp">
+                <ul class="accordion accordion-foto wow fadeInUp">
                   <!--Item 1-->
                   <li>
                     <a data-toggle="collapse" class="collapsed" href="#accordion-foto1">
-                      <!--Fotografias Hover & Accordion-->
+                      <!--Imagens se movimentam no Hover-->
                       <div class="pic-container mx-auto">
-                        <img src="img/exemplos/img3.svg" class="pic" />
-                        <img src="img/exemplos/img3-a.svg" class="pic2" />
-                        <img src="img/exemplos/img3.svg" class="pic" />
+                        <img src="img/img-thumb-accordion-A.svg" class="pic pic-frente shadow rounded" />
+                        <img src="img/img-thumb-accordion-B.svg" class="pic pic-tras shadow rounded" />
+                        <img src="img/img-thumb-accordion-C.svg" class="pic pic-tras shadow rounded" />
+
+                        <h4 class="text-center pt-4">Ítem 1 <i class="fas fa-chevron-down"></i></h4>
                       </div>
-                      <!-- Fim e Fotografias Hover & Accordion -->
-                      <div class="pic-container2 pt-4">
-                        <h4 class="text-center">Ítem 1 <i class="fas fa-chevron-down"></i></h4>
-                      </div>
+                      <!-- Fim das imagens-->
+                        
                     </a>
 
-                    <div id="accordion-foto1" class="accordion-foto-conteudo collapse">
-                      <p class="m-0 mx-auto">O crescimento acentuado do volume da literatura científica foi acompanhado
+                    <div id="accordion-foto1" class="accordion-foto-conteudo collapse mt-3 mt-lg-5">
+                      <p class="m-0 mx-auto">O crescimento <a href='' target='_blank'>acentuado</a> do volume da literatura científica foi acompanhado
                         pela “comercialização” do sistema de comunicação da ciência, e pela perda do seu controle por
                         parte do mundo académico e científico.</p>
                     </div>
@@ -608,26 +611,24 @@
               </div>
               <!--fim da coluna-->
 
-              <div class="col-12 col-md-4 mt-3 mb-3">
+              <div class="col-11 col-md-4 p-lg-4 mb-5 mb-md-0">
                 <!--Accordion 2-->
-                <ul id="accordion-foto-hover2" class="accordion accordion-foto wow fadeInUp">
+                <ul class="accordion accordion-foto wow fadeInUp">
                   <!--Item 2-->
                   <li>
                     <a data-toggle="collapse" class="collapsed" href="#accordion-foto2">
-                      <!--Fotografias Hover & Accordion-->
+                      <!--Imagens se movimentam no Hover-->
                       <div class="pic-container mx-auto">
-                        <img src="img/exemplos/img3.svg" class="pic" />
-                        <img src="img/exemplos/img3.svg" class="pic2" />
-                        <img src="img/exemplos/img4.svg" class="pic" />
-                      </div>
-                      <!-- Fim e Fotografias Hover & Accordion -->
+                        <img src="img/img-thumb-accordion-B.svg" class="pic pic-frente shadow rounded" />
+                        <img src="img/img-thumb-accordion-C.svg" class="pic pic-tras shadow rounded" />
+                        <img src="img/img-thumb-accordion-A.svg" class="pic pic-tras shadow rounded" />
 
-                      <div class="pt-4">
-                        <h4 class="text-center">Ítem 2 <i class="fas fa-chevron-down"></i></h4>
+                        <h4 class="text-center pt-4">Ítem 2 <i class="fas fa-chevron-down"></i></h4>
                       </div>
+                      <!-- Fim das imagens-->
                     </a>
 
-                    <div id="accordion-foto2" class="accordion-foto-conteudo collapse">
+                    <div id="accordion-foto2" class="accordion-foto-conteudo collapse mt-3 mt-lg-5">
                       <p class="m-0 mx-auto">A função essencial das revistas científicas - a divulgação de resultados de
                         investigação para promover a disseminação do conhecimento e o avanço da ciência – foi
                         obscurecida pelos objetivos comerciais das <a href='#' data-toggle="modal"
@@ -639,26 +640,24 @@
               </div>
               <!--fim da coluna-->
 
-              <div class="col-12 col-md-4 mt-3 mb-3">
+              <div class="col-11 col-md-4 p-lg-4 mb-5 mb-md-0">
                 <!--Accordion 3-->
-                <ul id="accordion-foto-hover3" class="accordion accordion-foto wow fadeInUp">
+                <ul class="accordion accordion-foto wow fadeInUp">
                   <!--Item 3-->
                   <li>
                     <a data-toggle="collapse" class="collapsed" href="#accordion-foto3">
-                      <!--Fotografias Hover & Accordion-->
-                      <div class="pic-container mx-auto">
-                        <img src="img/exemplos/img3.svg" class="pic" />
-                        <img src="img/exemplos/img4.svg" class="pic2" />
-                        <img src="img/exemplos/img5.svg" class="pic" />
-                      </div>
-                      <!-- Fim e Fotografias Hover & Accordion -->
+                       <!--Imagens se movimentam no Hover-->
+                       <div class="pic-container mx-auto">
+                        <img src="img/img-thumb-accordion-C.svg" class="pic pic-frente shadow rounded" />
+                        <img src="img/img-thumb-accordion-A.svg" class="pic pic-tras shadow rounded" />
+                        <img src="img/img-thumb-accordion-B.svg" class="pic pic-tras shadow rounded" />
 
-                      <div class="pt-4">
-                        <h4 class="text-center">Ítem 3 <i class="fas fa-chevron-down"></i></h4>
+                        <h4 class="text-center pt-4">Ítem 3 <i class="fas fa-chevron-down"></i></h4>
                       </div>
+                      <!-- Fim das imagens-->
                     </a>
 
-                    <div id="accordion-foto3" class="accordion-foto-conteudo collapse">
+                    <div id="accordion-foto3" class="accordion-foto-conteudo collapse mt-3 mt-lg-5">
                       <p class="m-0 mx-auto">No meio acadêmico e entre os profissionais de informação, gerou a designada
                         <a href='#' data-toggle="modal" data-target="#modal-glossario7" style="cursor: help;">“crise dos
                           periódicos”</a> e das graves consequências que as limitações ao acesso à literatura produziam
@@ -696,7 +695,7 @@
 
             <!--Comparação-->
             <div class="row justify-content-center mb-5" id="quadro-comparacao">
-              <div class="col-10 col-md-5 item item1 wow slideInUp" data-wow-duration="2s">
+              <div class="col-10 col-md-5 shadow item item1 wow slideInUp" data-wow-duration="2s">
                 <h5 class="text-center"><strong>Processo Corrente de Publicação Estático</strong></h5>
                 <h5 class="text-center"
                   style="background-color:red; color: var(--white-color); display: inline-block; padding: 2px 10px; border-radius: 3px; font-size:11px; font-family: 'Montserrat', sans-serif; left: 50%; position: relative; margin-left: -55px">
@@ -722,7 +721,7 @@
                 <!-- <p class="text-center" style="font-size:2.5rem; font-weight: 700;">&</p> -->
               </div>
 
-              <div class="col-10 col-md-5 item item2 wow slideInUp" data-wow-duration="2s" data-wow-delay="0.5s">
+              <div class="col-10 col-md-5 shadow item item2 wow slideInUp" data-wow-duration="2s" data-wow-delay="0.5s">
                 <h5 class="text-center verde"><strong>Como deveria ser (Dinâmico)</strong></h5>
                 <h5 class="text-center"
                   style="background-color:var(--main-color3); color: var(--white-color); display: inline-block; padding: 2px 10px; border-radius: 3px; font-size:11px; font-family: 'Montserrat', sans-serif; left: 50%; position: relative; margin-left: -55px">
@@ -744,9 +743,9 @@
             </div>
             <!--Fim de comparação-->
 
-             <!--Comparação-->
+             <!--Diferença-->
              <div class="row justify-content-center mb-5" id="quadro-comparacao">
-              <div class="col-10 col-md-5 item item1 wow slideInUp" data-wow-duration="2s">
+              <div class="col-10 col-md-5 shadow item item1 wow slideInUp" data-wow-duration="2s">
                 <h5 class="text-center"><strong>Processo Corrente de Publicação Estático</strong></h5>
                 <h5 class="text-center"
                   style="background-color:red; color: var(--white-color); display: inline-block; padding: 2px 10px; border-radius: 3px; font-size:11px; font-family: 'Montserrat', sans-serif; left: 50%; position: relative; margin-left: -55px">
@@ -769,7 +768,7 @@
                 <p class="text-center" style="font-size:7rem; font-weight: 700;">≠</p>
               </div>
 
-              <div class="col-10 col-md-5 item item2 wow slideInUp" data-wow-duration="2s" data-wow-delay="0.5s">
+              <div class="col-10 col-md-5 shadow item item2 wow slideInUp" data-wow-duration="2s" data-wow-delay="0.5s">
                 <h5 class="text-center verde"><strong>Como deveria ser (Dinâmico)</strong></h5>
                 <h5 class="text-center"
                   style="background-color:var(--main-color3); color: var(--white-color); display: inline-block; padding: 2px 10px; border-radius: 3px; font-size:11px; font-family: 'Montserrat', sans-serif; left: 50%; position: relative; margin-left: -55px">
@@ -789,7 +788,8 @@
                 </ul>
               </div>
             </div>
-            <!--Fim de comparação-->
+            <!--Fim de Diferença-->
+
           </div> <!-- fim container -->
     </section><!-- #comparacao -->
 
@@ -812,9 +812,9 @@
             <h4><strong>Citações:</strong></h4>
 
             <!-- Box citação -->
-            <div class="row justify-content-center serie3 mb-5">
+            <div class="row justify-content-center mb-5">
               <div class="col-11 col-md-10">
-                <div class="box-quote option1 aos-init aos-animate" data-aos="flip-up">
+                <div class="box-quote shadow option1 aos-init aos-animate" data-aos="flip-up">
                     <blockquote class="quote">
                         <p>As organizações são concebidas como sistemas vivos, que existem em uma ambiente
                             mais amplo do qual dependem em termos de satisfação de suas várias
@@ -830,9 +830,9 @@
             <h4><strong>Destacar um texto:</strong></h4>
 
             <!--Box Simples -->
-            <div class="row justify-content-center serie3 mb-5">
+            <div class="row justify-content-center mb-5">
               <div class="col-11 col-md-10">
-                <div class="box-quote option1 aos-init aos-animate" data-aos="flip-up">
+                <div class="box-quote shadow option1 aos-init aos-animate" data-aos="flip-up">
                   <p style="font-size:1.25rem;" class="text-center"><strong>Mas eis a pergunta que realmente
                       interessa:<br/><br/>esta quantidade de artigos é igualmente traduzida em qualidade, influencia,
                       relevância?</strong></p>
@@ -870,44 +870,44 @@
 
             <div class="row justify-content-center mb-5">
               <!--Box simples-->
-              <div class="box-quote col-11 col-md-10 offset-md-1 mt-5 mb-5">
+              <div class="box-quote col-11 col-md-10 shadow mt-5 mb-5">
                 <h5 class="text-center"><strong>Dimensões do Arca</strong></h5>
                 <span class="section-divider middle"></span>
 
                 <div class="row">
                   <div class="col-12 col-md-4 text-center">
                     <img class="mx-auto d-block img-fluid aos-init aos-animate" data-aos="flip-left"
-                      src="img/exemplos/ic1.svg" alt="" width="100">
+                      src="img/ic1.svg" alt="" width="100">
                     <p>É um indicador de Desempenho do Governo Federal</p>
                   </div>
 
                   <div class="col-12 col-md-4 text-center">
                     <img class="mx-auto d-block img-fluid aos-init aos-animate" data-aos="flip-left"
-                      src="img/exemplos/ic2.svg" alt="" width="100">
+                      src="img/ic2.svg" alt="" width="100">
                     <p>Requisito para a aprovação de financiamento nos editais PIBIC, PIBITI e Inova da Fiocruz;</p>
                   </div>
 
                   <div class="col-12 col-md-4 text-center">
                     <img class="mx-auto d-block img-fluid aos-init aos-animate" data-aos="flip-left"
-                      src="img/exemplos/ic3.svg" alt="" width="100">
+                      src="img/ic3.svg" alt="" width="100">
                     <p>Cada comunidade possui informações sobre o gestor, homepage, coleções e quantitativo;</p>
                   </div>
 
                   <div class="col-12 col-md-4 text-center">
                     <img class="mx-auto d-block img-fluid aos-init aos-animate" data-aos="flip-left"
-                      src="img/exemplos/ic4.svg" alt="" width="100">
+                      src="img/ic4.svg" alt="" width="100">
                     <p>Desenvolvido em Dspace - atualmente na versão 4.7;</p>
                   </div>
 
                   <div class="col-12 col-md-4 text-center">
                     <img class="mx-auto d-block img-fluid aos-init aos-animate" data-aos="flip-left"
-                      src="img/exemplos/ic5.svg" alt="" width="100">
+                      src="img/ic5.svg" alt="" width="100">
                     <p>26 comunidades (dezembro/2018);</p>
                   </div>
 
                   <div class="col-12 col-md-4 text-center">
                     <img class="mx-auto d-block img-fluid aos-init aos-animate" data-aos="flip-left"
-                      src="img/exemplos/ic6.svg" alt="" width="100">
+                      src="img/ic6.svg" alt="" width="100">
                     <p>25.677 objetos digitais (dezembro/2018).</p>
                   </div>
 
@@ -916,14 +916,140 @@
               <!--Fim de Box simples-->
             </div>
 
-            <h4><strong>Saiba Mais:</strong></h4>
+            <h4><strong>Box de Atenção:</strong></h4>
+
+            <!--Atenção-->
+            <div class="row justify-content-center mb-5">
+              <div class="atencao boxes col-10 col-md-12 aos-init aos-animate" data-aos="fade-up" data-aos-duration="400">
+                <div class="box-quote multi-border">
+                  <h5><i class="icone-fontawesome fas fa-exclamation" data-fa-transform="grow-25"></i>Atenção</h5>
+                  <div class="boxes-content">
+
+                    <p>Atualmente, nas ciências biomédicas, este processo de avaliação pode demorar de 01 a 06 meses, às
+                      vezes um ano. Nas áreas mais competitivas (e nas revistas de mais prestígio), este processo leva
+                      em média 01 a 02 meses. </p>
+
+                    <ul style="list-style: none;">
+                      <li class="mb-2"><i class="icon ion-ios-arrow-forward"></i> <a href='' target='_blank'>Exemplo de link para páginas</a></li>
+                    </ul>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Fim do Atenção-->
+
+            <h4><strong>Box de Glossário:</strong></h4>
+
+            <!--Glossário-->
+            <div class="row justify-content-center mb-5">
+              <div class="glossario boxes col-10 col-md-12 aos-init aos-animate" data-aos="fade-up" data-aos-duration="400">
+                <div class="box-quote multi-border">
+                  <h5><i class="iconmoon icon-ic-glossario"></i>Glossário</h5>
+                  <div class="boxes-content">
+
+                    <p>Mauris quis nisi ex. Vivamus et sodales ipsum, vulputate interdum nisl. Proin sit amet tellus sem. Etiam fringilla, diam et pellentesque sodales, mi est maximus ex, vitae malesuada augue tortor vitae nisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac luctus eros, quis lobortis odio. Morbi in massa quis lorem porttitor tempus. </p>
+
+    
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Fim do Glossário-->
+
+            <h4><strong>Box de Material Complementar:</strong></h4>
+
+            <!--Material Complementar-->
+            <div class="row justify-content-center mb-5">
+              <div class="material-complementar boxes col-10 col-md-12 aos-init aos-animate" data-aos="fade-up" data-aos-duration="400">
+                <div class="box-quote multi-border">
+                  <h5><i class="iconmoon icon-ic-material-complementar"></i>Material Complementar</h5>
+                  <div class="boxes-content">
+
+                    <p>Mauris quis nisi ex. Vivamus et sodales ipsum, vulputate interdum nisl. Proin sit amet tellus sem. Etiam fringilla, diam et pellentesque sodales, mi est maximus ex, vitae malesuada augue tortor vitae nisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac luctus eros, quis lobortis odio. Morbi in massa quis lorem porttitor tempus. </p>
+
+                    <ul>
+                      <li class="mb-2"><i class="icon ion-ios-arrow-forward"></i> <a
+                          href='' target='_blank'>Exemplo de link para páginas</a></li>
+  
+                      <li class="mb-2"><i class="icone-fontawesome far fa-file-alt fa-xs"></i> <a
+                          href='' target='_blank'>Exemplo de link para arquivos</a></li>
+  
+                      <li class="mb-2"><i class="iconmoon icon-ic-video"></i> <a
+                          href='' target='_blank'>Exemplo de link de vídeo</a></li>
+
+                      <li class="mb-2"><i class="iconmoon icon-headphones"></i> <a  href='' target='_blank'>Exemplo de link de áudio</a></li>
+                    </ul>
+
+    
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Fim do Material Complementar -->
+
+            <h4><strong>Box de Para refletir:</strong></h4>
+            
+            <!--Para Refletir-->
+            <div class="row justify-content-center my-5">
+                <div class="para-refletir boxes col-10 col-md-12 serie4 aos-init aos-animate" data-aos="fade-up" data-aos-duration="400">
+                  <div class="box-quote multi-border">
+                    <h5><i class="iconmoon icon-ic-para-refletir"></i>Para refletir</h5>
+                    <div class="boxes-content">
+
+                      <p>Como nossa produção acadêmica dialoga com as demandas da comunidade?</p>
+
+                      <p>De que maneira podemos disponibilizar o que já desenvolvemos nos variados cursos e formações?</p>
+
+                      <p>Os pesquisadores <a href="http://books.scielo.org/id/22qtc/pdf/pretto-9788523208899-02.pdf"
+                          target="_blank">Simon e Vieira</a> ressaltam que é preciso considerar as novas formas de
+                        produção social que emergem com o avanço da tecnologia digital e de que forma favorecem (ou
+                        impulsionam) o estabelecimento de um novo modelo de prática acadêmica, mais colaborativo e que
+                        valoriza o conhecimento como bem comum.</p>
+
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!--Fim do Para Refletir-->
+
+            <!--Para escutar-->
+            <div class="row justify-content-center my-5">
+              <div class="para-escutar boxes col-10 col-md-12 serie4 aos-init aos-animate" data-aos="fade-up" data-aos-duration="400">
+                <div class="box-quote multi-border">
+                  <h5><i class="iconmoon icon-headphones"></i>Para escutar</h5>
+                  <div class="boxes-content">
+
+                    <p>Ouça abaixo o audio selecionado:</p>
+
+                    <!-- Podcast -->
+                    <div class="row justify-content-center">
+                      <div class="col-12 col-md-10 p-0">
+                        <div class="player-with-download">
+                          <audio crossorigin>
+                              <source src="audio/example-2.mp3" type="audio/mpeg">
+                          </audio>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Fim de Podcast -->
+
+                    
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Fim do Para escutar-->
+
+            <h4><strong>Box de Saiba Mais:</strong></h4>
 
             <!--Saiba Mais-->
             <div class="row justify-content-center mb-5">
-              <div class="saiba-mais col-10 col-md-12 aos-init aos-animate" data-aos="fade-up" data-aos-duration="400">
+              <div class="saiba-mais boxes col-10 col-md-12 aos-init aos-animate" data-aos="fade-up" data-aos-duration="400">
                 <div class="box-quote multi-border">
                   <h5><i class="fas fa-question-circle" data-fa-transform="grow-25"></i>Saiba mais</h5>
-                  <div class="saiba-mais-content">
+                  <div class="boxes-content">
 
                     <p>Atualmente, nas ciências biomédicas, este processo de avaliação pode demorar de 01 a 06 meses, às
                       vezes um ano. Nas áreas mais competitivas (e nas revistas de mais prestígio), este processo leva
@@ -934,56 +1060,36 @@
               </div>
             </div>
             <!--Fim do Saiba Mais-->
-            
 
-            <h4><strong>Atenção:</strong></h4>
+            <h4><strong>Box de Vídeo:</strong></h4>
 
-            <!--Atenção-->
+            <!--Vídeo-->
             <div class="row justify-content-center mb-5">
-              <div class="atencao col-10 col-md-12 aos-init aos-animate" data-aos="fade-up" data-aos-duration="400">
+              <div class="video boxes col-10 col-md-12 aos-init aos-animate" data-aos="fade-up" data-aos-duration="400">
                 <div class="box-quote multi-border">
-                  <h5><i class="fas fa-exclamation" data-fa-transform="grow-25"></i>Atenção</h5>
-                  <div class="saiba-mais-content">
+                  <h5><i class="iconmoon icon-ic-video"></i>Vídeo</h5>
+                  <div class="boxes-content">
 
-                    <p>Atualmente, nas ciências biomédicas, este processo de avaliação pode demorar de 01 a 06 meses, às
-                      vezes um ano. Nas áreas mais competitivas (e nas revistas de mais prestígio), este processo leva
-                      em média 01 a 02 meses. </p>
+                    <p>Confira o vídeo abaixo:</p>
 
-                    <ul style="list-style: none;">
-                      <li><i class="icon ion-ios-arrow-forward"></i> <a href="https://cursos.aberta.org.br/"
-                          target="_blank">Conheça a Iniciativa Educação Aberta, um curso de formação no tema</a></li>
-                    </ul>
+                    <!--Video (embed Youtube ou Vimeo) -->
+                    <div class="row justify-content-center mt-5">
+                      <div class="col-12 col-lg-10 p-0">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/3vijLre760w" frameborder="0"
+                                allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        </div>
+                        <p class="reference-title text-center">Vídeo 1 - Rainforests 101 | National Geographic</p>
+                        <p class="source text-center">Fonte: <a href='https://www.youtube.com/watch?v=3vijLre760w' target='_blank'>National Geographic (2019)</a></p>
+                    </div>
+                    <!--Fim do video -->
 
                   </div>
                 </div>
               </div>
             </div>
-            <!--Fim do Atenção-->
-
-            <h4><strong>Para refletir:</strong></h4>
-            
-            <!--Para Refletir-->
-            <div class="row justify-content-center my-5">
-              <div class="para-refletir col-10 col-md-12 serie4 aos-init aos-animate" data-aos="fade-up" data-aos-duration="400">
-                <div class="box-quote multi-border">
-                  <h5><i class="fas fa-cog" data-fa-transform="grow-25" aria-hidden="true"></i>Para refletir</h5>
-                  <div class="saiba-mais-content">
-
-                    <p>Como nossa produção acadêmica dialoga com as demandas da comunidade?</p>
-
-                    <p>De que maneira podemos disponibilizar o que já desenvolvemos nos variados cursos e formações?</p>
-
-                    <p>Os pesquisadores <a href="http://books.scielo.org/id/22qtc/pdf/pretto-9788523208899-02.pdf"
-                        target="_blank">Simon e Vieira</a> ressaltam que é preciso considerar as novas formas de
-                      produção social que emergem com o avanço da tecnologia digital e de que forma favorecem (ou
-                      impulsionam) o estabelecimento de um novo modelo de prática acadêmica, mais colaborativo e que
-                      valoriza o conhecimento como bem comum.</p>
-
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!--Fim do Para Refletir-->
+            <!--Fim do Vídeo-->
+          </div>
 
           </div>
         </div>
@@ -1005,19 +1111,20 @@
       <div class="row justify-content-center">
        <div class="col-12 col-lg-10">
          <p>Este recurso é indicado para textos pequenos. Contudo, é maior do que os destinados ao hover box. É acionado através do clique (ou toque) no botão com o ícone de flip.</p>
-         <p>É permitido utilizar uma imagem de fundo (editada no css) para a parte da frente ou apenas cor de fundo.</p>
+         <p>É permitido utilizar uma imagem de fundo (editada no css) para a parte da frente ou apenas cor de fundo. A classe que está chamando esta imagem é a <strong>fundo1</strong>.</p>
+         <p><strong>Obs: Para usar um fundo com uma cor, basta retirar a classe fundo1. Por padrão, a cor utilizada é laranja.</strong></p>
        </div>
      </div>
 
      <!--Flip Cards 2.0 CSS -->
      <div class="row justify-content-center mt-5 mb-5">
        <!--FlipCard 1-->
-       <div class="col-xs-12 col-lg-6 mb-5">
+       <div class="col-12 col-md-6 col-lg-6 mb-5">
          <div class="flip-card">
            <input type="checkbox" id="flipcard1" class="more no-print" aria-hidden="true">
            <div class="flip-card-inner">
              <!-- FRENTE -->
-             <div class="flip-card-front item1 no-print">
+             <div class="flip-card-front fundo1 no-print">
                <div class="card-title">
                  <h3>Situações que AGRAVAM a pena</h3>
                </div>
@@ -1089,12 +1196,12 @@
        <!--Fim Flipcard 1-->
 
        <!--FlipCard 2-->
-       <div class="col-xs-12 col-lg-6 mb-5">
+       <div class="col-12 col-md-6 col-lg-6 mb-5">
          <div class="flip-card">
            <input type="checkbox" id="flipcard2" class="more no-print" aria-hidden="true">
            <div class="flip-card-inner">
              <!-- FRENTE -->
-             <div class="flip-card-front item2 no-print">
+             <div class="flip-card-front fundo1 no-print">
                <div class="card-title">
                  <h3>Situações que ATENUAM a pena</h3>
                </div>
@@ -1184,7 +1291,7 @@
                 <div class="item-box-2">
                   <div class="layer">
                     <div class="inner">
-                      <h2><img class="img-responsive img-rounded center-block" src="img/exemplos/img6.svg"
+                      <h2><img class="img-responsive img-rounded center-block" src="img/img6.svg"
                           width="200" /><br /><span class="text-center">Da</span>Academia</h2>
                       <i class="fas fa-plus-circle"></i>
                       <div class="share-buttons">
@@ -1201,7 +1308,7 @@
                 <div class="item-box-2">
                   <div class="layer">
                     <div class="inner">
-                      <h2><img class="img-responsive img-rounded center-block" src="img/exemplos/img7.svg"
+                      <h2><img class="img-responsive img-rounded center-block" src="img/img7.svg"
                           width="200" /><br /><span class="text-center">Do</span> Mercado</h2>
                       <i class="fas fa-plus-circle"></i>
                       <div class="share-buttons">
@@ -1222,7 +1329,7 @@
                 <div class="item-box-2">
                   <div class="layer">
                     <div class="inner">
-                      <h2><img class="img-responsive img-rounded center-block" src="img/exemplos/img8.svg"
+                      <h2><img class="img-responsive img-rounded center-block" src="img/img8.svg"
                           width="200" /><br /><span class="text-center">Da</span> População</h2>
                       <i class="fas fa-plus-circle"></i>
                       <div class="share-buttons">
@@ -1281,7 +1388,7 @@
         <div class="section-header">
           <p class="headline-small text-center">Recurso 8</p>
           <h3 class="section-title">Lista</h3>
-          <span class="section-divider serie3 middle"></span>
+          <span class="section-divider middle"></span>
         </div>
 
         <div class="row wow justify-content-center">
@@ -1310,7 +1417,7 @@
     <!--==========================
       Bloco 9 - Modal
     ============================-->
-    <section id="topico9" class="bg-section2 pt-5">
+    <section id="topico9" class="bg-section2 py-5">
       <div class="container">
         <div class="section-header">
           <p class="headline-small text-center">Recurso 9</p>
@@ -1339,8 +1446,8 @@
                   </div>
                   <div class="modal-body">
 
-                      <div class="row">
-                          <div class="col-12 col-lg-5">
+                      <div class="row justify-content-center">
+                          <div class="col-12 col-md-6 col-lg-5">
                               <img class="img-fluid rounded"
                                   src="img/img.jpg" alt="" title="Fonte: Nome do Autor / Nome do Banco de Imagem"/>
                               <p class="source text-center">Fonte: <a href='http://www.google.com' target='_blank'>Minha fonte</a></p>
@@ -1359,15 +1466,47 @@
               </div>
             </div>
             <!-- Fim do Modal -->
-
-    
-          </div> <!-- fim container -->
-    </section><!-- #lista-->
+          </div>
+        </div>
+      </div> <!-- fim container -->
+    </section><!-- #Modal-->
 
     <!--==========================
-      Bloco 10 - Slider
+      Bloco 10 - Podcast
     ============================-->
-    <section id="topico10" class="bg-section3 pt-5">
+    <section id="topico10" class="bg-section py-5">
+      <div class="container">
+        <div class="section-header">
+          <p class="headline-small text-center">Recurso 10</p>
+          <h3 class="section-title">Podcast</h3>
+          <span class="section-divider serie3 middle"></span>
+        </div>
+
+        <div class="row wow justify-content-center">
+          <div class="col-12 col-lg-10">
+            <p>Utilizado para tocar áudios.</p>
+
+            <!-- Podcast -->
+            <div class="row justify-content-center">
+              <div class="col-12 col-md-10 p-0">
+                <div class="player-with-download">
+                  <audio crossorigin>
+                      <source src="audio/example-2.mp3" type="audio/mpeg">
+                  </audio>
+                </div>
+              </div>
+            </div>
+            <!-- Fim de Podcast -->
+  
+          </div>
+        </div>
+      </div> <!-- fim container -->
+    </section><!-- #Podcast-->
+
+    <!--==========================
+      Bloco 11 - Slider
+    ============================-->
+    <section id="topico11" class="bg-section3 pt-5">
       <div class="container">
         <div class="section-header">
           <p class="headline-small text-center">Recurso 10</p>
@@ -1379,55 +1518,220 @@
           <div class="col-12 col-lg-10">
             <p>Utilizado para exibir diferentes conteúdos (imagem ou texto) por partes.</p>
 
-              <p><strong>Opção 1: Somente imagens:</strong></p>
+            <h5 class="title my-5 p-0 pb-1">Slider somente imagens:</h5>
 
-              <!--Slider-->
-              <section id="carousel1" class="carousel slide my-5" data-ride="false" aria-labelledby="carouselheading">
-                <div class="row justify-content-center m-0">
-                    <div class="col-10 col-lg-12 px-0">
+            <!--Slider-->
+            <section id="carousel1" class="carousel slide my-5 slider-somente-imagem" data-ride="false" data-touch="true" data-keyboard="true" aria-labelledby="carouselheading">
+            <div class="row justify-content-center m-0">
+                <div class="col-12 col-md-12 col-lg-12 px-0">
+                    <div class="box-quote multi-border shadow border-1 col-12 m-0 p-0">
+                        <ol class="carousel-indicators">
+                        <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel1" data-slide-to="1"></li>
+                        <li data-target="#carousel1" data-slide-to="2"></li>
+                        </ol>
+
+                        <div class="carousel-inner">
+                            <!-- Ítem 1 -->
+                            <article class="carousel-item active">
+                                <div class="row justify-content-center m-0">
+                                    <div class="col-12 p-0">
+                                        <img class="img-fluid rounded-top d-none d-md-block" src="img/img-passafoto.jpg" alt="Descreva a imagem. Até 125 caracteres" title="Fonte: nome do Autor / Nome do Banco de Imagens">
+                                        <img class="img-fluid rounded-top d-block d-md-none" src="img/img-mobile.jpg" alt="Descreva a imagem. Até 125 caracteres" title="Fonte: nome do Autor / Nome do Banco de Imagens">
+                                    </div>
+                                </div>
+                            </article>
+
+                            <!-- Ítem 2 -->
+                            <article class="carousel-item">
+                                <div class="row justify-content-center m-0">
+                                    <div class="col-12 p-0">
+                                        <img class="img-fluid rounded-top d-none d-md-block" src="img/img-passafoto.jpg" alt="Descreva a imagem. Até 125 caracteres" title="Fonte: nome do Autor / Nome do Banco de Imagens">
+                                        <img class="img-fluid rounded-top d-block d-md-none" src="img/img-mobile.jpg" alt="Descreva a imagem. Até 125 caracteres" title="Fonte: nome do Autor / Nome do Banco de Imagens">
+                                    </div>
+                                </div>
+                            </article>
+
+                            <!-- Ítem 3 -->
+                            <article class="carousel-item">
+                                <div class="row justify-content-center m-0">
+                                    <div class="col-12 p-0">
+                                        <img class="img-fluid rounded-top d-none d-md-block" src="img/img-passafoto.jpg" alt="Descreva a imagem. Até 125 caracteres" title="Fonte: nome do Autor / Nome do Banco de Imagens">
+                                        <img class="img-fluid rounded-top d-block d-md-none" src="img/img-mobile.jpg" alt="Descreva a imagem. Até 125 caracteres" title="Fonte: nome do Autor / Nome do Banco de Imagens">
+                                </div>
+                            </article>
+                        </div>
+
+                        <!-- Controles -->
+                        <a class="carousel-control-prev" href="#carousel1" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon white-arrow" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carousel1" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon white-arrow" aria-hidden="true"></span>
+
+                        <span class="sr-only">Próximo</span>
+                        </a>
+                    </div>
+                </div>
+                <!--Fim do caroussel inner-->
+            </div>
+            </section>
+            <!--Fim do Slider-->
+
+            <h5 class="title my-5 p-0 pb-1">Slider somente texto:</h5>
+            <p><strong>Opção 2: Slider somente texto</strong></p>
+
+            <!--Slider-->
+            <section id="carousel2" class="carousel slide" data-ride="false"  data-touch="true" data-keyboard="true"
+                aria-labelledby="carouselheading">
+                <div class="row justify-content-center px-md-3">
+                <div class="box-quote col-11 col-md-12 col-lg-12 px-0 justify-content-center d-flex flex-column carousel-texto">
+                    <ol class="carousel-indicators">
+                    <li data-target="#carousel2" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel2" data-slide-to="1"></li>
+                    <li data-target="#carousel2" data-slide-to="2"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                    <!-- Ítem 1 -->
+                    <article class="carousel-item active">
+                        <div class="row justify-content-center m-0">
+                        <div class="col-12 col-md-10 px-5">
+                            <p>A primeira iniciativa de fomento para abertura de dados governamentais se deu a partir do
+                            <a href="http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/dsn/dsn13117.htm"
+                                target="_blank">Plano de Ação Nacional sobre Governo Aberto</a> (Decreto s/nº de 15 de
+                            setembro de 2011), criado para incremento da transparência e do acesso à informação pública.
+                            As medidas estavam respaldadas na Constituição Federal, a qual estabelece que a
+                            administração pública tem a responsabilidade de fazer a gestão da documentação governamental
+                            e viabilizar o acesso dos usuários a registros administrativos e a informações sobre atos de
+                            governo.</p>
+                        </div>
+                        </div>
+                    </article>
+
+                    <!-- Ítem 2 -->
+                    <article class="carousel-item">
+                        <div class="row justify-content-center m-0">
+                        <div class="col-12 col-md-10 px-5">
+                            <p>O movimento de abertura ganha institucionalidade com a <a
+                                href="http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm"
+                                target="_blank">Lei de Acesso à Informação</a> (LAI - 12.527/2011), responsável pela
+                            criação de uma cultura de transparência no governo federal. Preconizou o direito
+                            constitucional de qualquer pessoa ter acesso à informação pública e a obrigação de dar
+                            publicidade sobre o recebimento e a destinação dos recursos públicos pelos três poderes da
+                            União; estados, Distrito Federal, municípios; tribunais de conta; Ministério Público; e
+                            entidades privadas sem fins lucrativos.</p>
+                        </div>
+                        </div>
+                    </article>
+
+                    <!-- Ítem 3 -->
+                    <article class="carousel-item">
+                        <div class="row justify-content-center m-0">
+                        <div class="col-12 col-md-10 px-5">
+                            <p>O movimento do Governo Aberto impulsionou a criação da <a
+                                href="https://www.governodigital.gov.br/transformacao/cidadania/dados-abertos/inda-infraestrutura-nacional-de-dados-abertos"
+                                target="_blank">Infraestrutura Nacional de Dados Abertos (INDA)</a> que visa promover a
+                            publicação de dados abertos pelos órgãos e entidades públicos de forma padronizada e
+                            centralizada. Trata-se, portanto, de um conjunto de padrões, tecnologias, procedimentos e
+                            mecanismos de controle para atendimento das condições de disseminação e compartilhamento de
+                            dados públicos de forma aberta.</p>
+                        </div>
+                        </div>
+                    </article>
+                    </div>
+
+                    <a class="carousel-control-prev" href="#carousel2" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon dark-arrow" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carousel2" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon dark-arrow" aria-hidden="true"></span>
+
+                    <span class="sr-only">Próximo</span>
+                    </a>
+                </div>
+                <!--Fim do caroussel inner-->
+                </div>
+            </section>
+            <!--Fim do Slider-->
+
+            <p><strong>Opção 3: Slider imagem horizontal e texto</strong></p>
+
+            <!--Slider-->
+            <section id="carousel3" class="carousel slide" data-ride="false"  data-touch="true" data-keyboard="true" aria-labelledby="carouselheading">
+                <div class="row justify-content-center m-0 p-0">
+                    <div class="col-12 col-md-12 col-lg-12 px-0">
                         <div class="box-quote multi-border shadow border-1 col-12 m-0 p-0">
                             <ol class="carousel-indicators">
-                            <li data-target="#carousel1" data-slide-to="0" class="active"></li>
-                            <li data-target="#carousel1" data-slide-to="1"></li>
-                            <li data-target="#carousel1" data-slide-to="2"></li>
+                            <li data-target="#carousel3" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel3" data-slide-to="1"></li>
+                            <li data-target="#carousel3" data-slide-to="2"></li>
                             </ol>
-
                             <div class="carousel-inner">
                                 <!-- Ítem 1 -->
                                 <article class="carousel-item active">
                                     <div class="row justify-content-center m-0">
                                         <div class="col-12 p-0">
-                                          <img class="img-fluid rounded-top d-block" src="img/img-passafoto.jpg" alt="Descreva a imagem. Até 125 caracteres" title="Fonte: nome do Autor / Nome do Banco de Imagens">
+                                            <img class="img-fluid rounded-top d-none d-md-block" src="img/img-passafoto.jpg" alt="Descreva a imagem. Até 125 caracteres" title="Fonte: nome do Autor / Nome do Banco de Imagens">
+                                            <img class="img-fluid rounded-top d-block d-md-none" src="img/img-mobile.jpg" alt="Descreva a imagem. Até 125 caracteres" title="Fonte: nome do Autor / Nome do Banco de Imagens">
+                                        </div>
+                                        <div class="col-12 p-5">
+                                        <div class="row justify-content-center p-0 m-0">
+                                            <div class="col-12 col-lg-10 px-0">
+                                            <h5>Passo 1</h5>
+                                            <p>Para criar novas Pastas, primeiramente, devemos selecionar, clicando sobre ela, uma Pasta ou unidade de disco (partição) no Painel de Pastas (lado esquerdo da janela).</p>
+                                            </div>
+                                        </div>  
                                         </div>
                                     </div>
                                 </article>
 
                                 <!-- Ítem 2 -->
                                 <article class="carousel-item">
-                                  <div class="row justify-content-center m-0">
-                                      <div class="col-12 p-0">
-                                        <img class="img-fluid rounded-top d-block" src="img/img-passafoto.jpg" alt="Descreva a imagem. Até 125 caracteres" title="Fonte: nome do Autor / Nome do Banco de Imagens">
-                                      </div>
-                                  </div>
+                                    <div class="row justify-content-center m-0">
+                                        <div class="col-12 p-0">
+                                            <img class="img-fluid rounded-top d-none d-md-block" src="img/img-passafoto.jpg" alt="Descreva a imagem. Até 125 caracteres" title="Fonte: nome do Autor / Nome do Banco de Imagens">
+                                            <img class="img-fluid rounded-top d-block d-md-none" src="img/img-mobile.jpg" alt="Descreva a imagem. Até 125 caracteres" title="Fonte: nome do Autor / Nome do Banco de Imagens">
+                                        </div>
+                                        <div class="col-12 p-5">
+                                        <div class="row justify-content-center p-0 m-0">
+                                            <div class="col-12 col-lg-10 px-0">
+                                            <h5>Passo 2</h5>
+                                            <p>Quando criada, a pasta nova terá um nome que é temporário, e que te dá possibilidade de mudar o nome. Para renomear uma pasta ou arquivo, você precisa selecionar a pasta/arquivo que deseja e realizar o procedimento.</p>
+                                            </div>
+                                        </div>  
+                                        </div>
+                                    </div>
                                 </article>
 
                                 <!-- Ítem 3 -->
                                 <article class="carousel-item">
-                                  <div class="row justify-content-center m-0">
-                                      <div class="col-12 p-0">
-                                        <img class="img-fluid rounded-top d-block" src="img/img-passafoto.jpg" alt="Descreva a imagem. Até 125 caracteres" title="Fonte: nome do Autor / Nome do Banco de Imagens">
-                                      </div>
-                                  </div>
+                                    <div class="row justify-content-center m-0">
+                                        <div class="col-12 p-0">
+                                            <img class="img-fluid rounded-top d-none d-md-block" src="img/img-passafoto.jpg" alt="Descreva a imagem. Até 125 caracteres" title="Fonte: nome do Autor / Nome do Banco de Imagens">
+                                            <img class="img-fluid rounded-top d-block d-md-none" src="img/img-mobile.jpg" alt="Descreva a imagem. Até 125 caracteres" title="Fonte: nome do Autor / Nome do Banco de Imagens">
+                                        </div>
+                                        <div class="col-12 p-5">
+                                        <div class="row justify-content-center p-0 m-0">
+                                            <div class="col-12 col-lg-10 px-0">
+                                            <h5>Passo 3</h5>
+                                            <p>Após isso, você pode mover seus arquivos para as pastas que deseja. Por exemplo, digamos que você tenha alguns arquivos pessoais. Não seria legal deixá-los na área de trabalho jogados e soltos. Você pode criar uma pasta chamada “arquivos pessoais” e colocar todos os arquivos lá dentro.</p>
+                                            </div>
+                                        </div>  
+                                        </div>
+                                    </div>
                                 </article>
                             </div>
 
                             <!-- Controles -->
-                            <a class="carousel-control-prev" href="#carousel1" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <a class="carousel-control-prev" href="#carousel3" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon dark-arrow" aria-hidden="true"></span>
                             <span class="sr-only">Anterior</span>
                             </a>
-                            <a class="carousel-control-next" href="#carousel1" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <a class="carousel-control-next" href="#carousel3" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon dark-arrow" aria-hidden="true"></span>
 
                             <span class="sr-only">Próximo</span>
                             </a>
@@ -1436,176 +1740,104 @@
                     <!--Fim do caroussel inner-->
                 </div>
             </section>
-              <!--Fim do Slider-->
+            <!--Fim do Slider--> 
 
-            <p><strong>Opção 2: Somente texto:</strong></p>
+            <p class="mt-5"><strong>Opção 4: Slider imagem vertical e texto</strong></p>
 
-              <!--Slider-->
-              <section id="carousel2" class="carousel slide wow fadeInUp" data-ride="false"
-                aria-labelledby="carouselheading">
-                <div class="row justify-content-center">
-                  <div class="box-quote col-10 col-lg-12 px-0 justify-content-center d-flex flex-column carousel-texto">
-                    <ol class="carousel-indicators">
-                      <li data-target="#carousel2" data-slide-to="0" class="active"></li>
-                      <li data-target="#carousel2" data-slide-to="1"></li>
-                      <li data-target="#carousel2" data-slide-to="2"></li>
-                    </ol>
+            <p>Este slider possui uma altura fixa no desktop. As imagens precisam ter as mesmas medidas. Já o texto, será scrollado.</p>
 
-                    <div class="carousel-inner">
-                      <!-- Ítem 1 -->
-                      <article class="carousel-item active">
-                        <div class="row justify-content-center m-0">
-                          <div class="col-12 col-md-10 px-5">
-                            <p>A primeira iniciativa de fomento para abertura de dados governamentais se deu a partir do
-                              <a href="http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/dsn/dsn13117.htm"
-                                target="_blank">Plano de Ação Nacional sobre Governo Aberto</a> (Decreto s/nº de 15 de
-                              setembro de 2011), criado para incremento da transparência e do acesso à informação pública.
-                              As medidas estavam respaldadas na Constituição Federal, a qual estabelece que a
-                              administração pública tem a responsabilidade de fazer a gestão da documentação governamental
-                              e viabilizar o acesso dos usuários a registros administrativos e a informações sobre atos de
-                              governo.</p>
-                          </div>
-                        </div>
-                      </article>
-
-                      <!-- Ítem 2 -->
-                      <article class="carousel-item">
-                        <div class="row justify-content-center m-0">
-                          <div class="col-12 col-md-10">
-                            <p>O movimento de abertura ganha institucionalidade com a <a
-                                href="http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm"
-                                target="_blank">Lei de Acesso à Informação</a> (LAI - 12.527/2011), responsável pela
-                              criação de uma cultura de transparência no governo federal. Preconizou o direito
-                              constitucional de qualquer pessoa ter acesso à informação pública e a obrigação de dar
-                              publicidade sobre o recebimento e a destinação dos recursos públicos pelos três poderes da
-                              União; estados, Distrito Federal, municípios; tribunais de conta; Ministério Público; e
-                              entidades privadas sem fins lucrativos.</p>
-                          </div>
-                        </div>
-                      </article>
-
-                      <!-- Ítem 3 -->
-                      <article class="carousel-item">
-                        <div class="row justify-content-center m-0">
-                          <div class="col-12 col-md-10">
-                            <p>O movimento do Governo Aberto impulsionou a criação da <a
-                                href="https://www.governodigital.gov.br/transformacao/cidadania/dados-abertos/inda-infraestrutura-nacional-de-dados-abertos"
-                                target="_blank">Infraestrutura Nacional de Dados Abertos (INDA)</a> que visa promover a
-                              publicação de dados abertos pelos órgãos e entidades públicos de forma padronizada e
-                              centralizada. Trata-se, portanto, de um conjunto de padrões, tecnologias, procedimentos e
-                              mecanismos de controle para atendimento das condições de disseminação e compartilhamento de
-                              dados públicos de forma aberta.</p>
-                          </div>
-                        </div>
-                      </article>
-                    </div>
-
-                    <a class="carousel-control-prev" href="#carousel2" role="button" data-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Anterior</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carousel2" role="button" data-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-
-                      <span class="sr-only">Próximo</span>
-                    </a>
-                  </div>
-                  <!--Fim do caroussel inner-->
-                </div>
-              </section>
-              <!--Fim do Slider-->
-
-            <p><strong>Opção 3: Com imagem e texto:</strong></p>
+            <p><strong>Obs: No mobile, ele aparece semelhante ao slider citado acima.</strong></p>
 
             <!--Slider-->
-            <section id="carousel3" class="carousel slide" data-ride="false" aria-labelledby="carouselheading">
-              <div class="row justify-content-center m-0 p-0">
-                  <div class="col-12 col-lg-12 px-0">
-                      <div class="box-quote multi-border shadow border-1 col-12 m-0 p-0">
-                          <ol class="carousel-indicators">
-                            <li data-target="#carousel3" data-slide-to="0" class="active"></li>
-                            <li data-target="#carousel3" data-slide-to="1"></li>
-                            <li data-target="#carousel3" data-slide-to="2"></li>
-                          </ol>
-                          <div class="carousel-inner">
-                              <!-- Ítem 1 -->
-                              <article class="carousel-item active">
-                                  <div class="row justify-content-center m-0">
-                                      <div class="col-12 p-0">
-                                        <img class="img-fluid rounded-top d-block" src="img/img-passafoto.jpg" alt="Descreva a imagem. Até 125 caracteres" title="Fonte: nome do Autor / Nome do Banco de Imagens">
-                                      </div>
-                                      <div class="col-12 p-5">
-                                        <div class="row justify-content-center p-0 m-0">
-                                          <div class="col-12 col-lg-10 px-0">
-                                            <h5>Passo 1</h5>
-                                            <p>Para criar novas Pastas, primeiramente, devemos selecionar, clicando sobre ela, uma Pasta ou unidade de disco (partição) no Painel de Pastas (lado esquerdo da janela).</p>
-                                          </div>
-                                        </div>  
-                                      </div>
-                                  </div>
-                              </article>
+            <section id="carousel4" class="carousel slide mt-5 slider-imagem-vertical" data-ride="false" data-touch="true" data-keyboard="true"
+                aria-labelledby="carouselheading">
+                <div class="row justify-content-center px-md-3">
+                    <div class="box-quote col-11 col-md-12 col-lg-12 m-0 p-0 justify-content-center d-flex flex-column carousel-texto">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel4" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel4" data-slide-to="1"></li>
+                            <li data-target="#carousel4" data-slide-to="2"></li>  
+                        </ol>
 
-                              <!-- Ítem 2 -->
-                              <article class="carousel-item">
-                                  <div class="row justify-content-center">
-                                      <div class="col-12 p-0">
-                                        <img class="img-fluid rounded-top d-block" src="img/img-passafoto.jpg" alt="Descreva a imagem. Até 125 caracteres" title="Fonte: nome do Autor / Nome do Banco de Imagens">
-                                      </div>
-                                      <div class="col-12 p-5">
-                                        <div class="row justify-content-center p-0 m-0">
-                                          <div class="col-12 col-lg-10 px-0">
-                                            <h5>Passo 2</h5>
-                                            <p>Quando criada, a pasta nova terá um nome que é temporário, e que te dá possibilidade de mudar o nome. Para renomear uma pasta ou arquivo, você precisa selecionar a pasta/arquivo que deseja e realizar o procedimento.</p>
-                                          </div>
-                                        </div>  
-                                      </div>
-                                  </div>
-                              </article>
+                        <div class="carousel-inner h-100">
+                        <!-- Ítem 1 -->
+                        <article class="carousel-item active h-100">
+                            <div class="row justify-content-center m-0 h-100">
+                                <div class="col-12 col-md-6 col-lg-7 order-2 order-md-1 p-5 p-md-4 texto">
 
-                              <!-- Ítem 3 -->
-                              <article class="carousel-item">
-                                  <div class="row justify-content-center m-0">
-                                      <div class="col-12 p-0">
-                                        <img class="img-fluid rounded-top d-block" src="img/img-passafoto.jpg" alt="Descreva a imagem. Até 125 caracteres" title="Fonte: nome do Autor / Nome do Banco de Imagens">
-                                      </div>
-                                      <div class="col-12 p-5">
-                                        <div class="row justify-content-center p-0 m-0">
-                                          <div class="col-12 col-lg-10 px-0">
-                                            <h5>Passo 3</h5>
-                                            <p>Após isso, você pode mover seus arquivos para as pastas que deseja. Por exemplo, digamos que você tenha alguns arquivos pessoais. Não seria legal deixá-los na área de trabalho jogados e soltos. Você pode criar uma pasta chamada “arquivos pessoais” e colocar todos os arquivos lá dentro.</p>
-                                          </div>
-                                        </div>  
-                                      </div>
-                                  </div>
-                              </article>
-                          </div>
+                                    <h4 class="my-4 p-0 pb-1">Slide 1</h4>
 
-                          <!-- Controles -->
-                          <a class="carousel-control-prev" href="#carousel3" role="button" data-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="sr-only">Anterior</span>
-                          </a>
-                          <a class="carousel-control-next" href="#carousel3" role="button" data-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <p>Este texto está alinhado pelo centro. A classe que configura isso é a <strong>align-items-center</strong>. Basta adicioná-la.</p>
+                
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere, arcu in sodales eleifend, tortor turpis finibus libero, ut gravida est purus at arcu. Duis vel lectus ac nisi semper rutrum sagittis at mi. Fusce aliquam, enim vehicula aliquam dapibus, lectus mi aliquam orci, et aliquam ipsum nibh non neque. Phasellus eu volutpat urna. Maecenas non venenatis turpis, sed varius est. Sed ac nisi ut tortor convallis fermentum. Ut ut nulla ut mauris vestibulum viverra. Nulla eleifend efficitur turpis, eget porta lectus scelerisque at. Phasellus dictum ultrices nisi. Aliquam laoreet mattis nisl vitae aliquet. Sed lobortis augue id nulla accumsan, vel luctus ligula lacinia. </p>
 
-                          <span class="sr-only">Próximo</span>
-                          </a>
-                      </div>
-                  </div>
-                  <!--Fim do caroussel inner-->
-              </div>
-            </section>
-            <!--Fim do Slider--> 
+                                    <p>Praesent eu fringilla dolor, a euismod lectus. Nam in purus sed mauris rhoncus sodales ac et mi. Nunc id velit sed nulla faucibus gravida vel sed augue. Sed sed neque facilisis, congue ipsum et, ullamcorper quam. Cras ornare viverra nunc. Cras eleifend sagittis ultrices. Maecenas aliquet accumsan diam eu tempor. Proin et pretium quam. Donec sit amet odio imperdiet, ultricies erat viverra, vehicula lacus. Integer viverra varius rutrum. Fusce vulputate leo ac ex molestie, eu blandit eros iaculis. </p>
+                                </div>
             
+                                <div class="col-12 col-md-6 col-lg-5 order-1 order-md-2 p-0">
+                                    <img class="img-fluid rounded-right mx-auto d-none d-md-block" src="img/img-vertical-slider.jpg" alt="" title="Fonte: Nome do autor / Nome do Banco de Imagens">
+                                    <img class="img-fluid rounded-top d-block d-md-none" src="img/img-mobile.jpg" alt="Descreva a imagem. Até 125 caracteres" title="Fonte: nome do Autor / Nome do Banco de Imagens">
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- Ítem 2 -->
+                        <article class="carousel-item">
+                            <div class="row justify-content-center m-0 h-100">
+                                <div class="col-12 col-md-6 col-lg-7 order-2 order-md-1 p-5 p-md-4 texto">
+
+                                    <h4 class="my-4 p-0 pb-1">Slide 2</h4>
+
+                                    <p>Nam nec gravida lacus. Donec ultricies sed turpis quis efficitur. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed ac odio dui. Nunc interdum ullamcorper lorem, id gravida nisi elementum consequat. Vivamus finibus tortor id rhoncus sagittis. Sed commodo leo id ligula placerat porttitor. Suspendisse lacinia risus eros, vel tristique nunc rhoncus nec. Mauris non arcu malesuada, egestas arcu non, sagittis urna. Nunc vehicula nunc lacus, a ornare justo dapibus et. Vivamus malesuada, ipsum in consequat suscipit, nisl massa ullamcorper neque, nec gravida elit quam vitae lorem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec tempor blandit neque nec egestas. Nam fringilla justo id purus iaculis, ac elementum enim malesuada. Donec porta massa id ipsum ultrices, non dignissim eros gravida. Nunc lobortis in diam id bibendum.</p>
+                                </div>
+            
+                                <div class="col-12 col-md-6 col-lg-5 order-1 order-md-2 p-0">
+                                    <img class="img-fluid rounded-right mx-auto d-none d-md-block" src="img/img-vertical-slider-exemplo.jpg" alt="" title="Fonte: Nome do autor / Nome do Banco de Imagens">
+                                    <img class="img-fluid rounded-top d-block d-md-none" src="img/img-mobile-exemplo.jpg" alt="Descreva a imagem. Até 125 caracteres" title="Fonte: nome do Autor / Nome do Banco de Imagens">
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- Ítem 3 -->
+                        <article class="carousel-item">
+                            <div class="row justify-content-center m-0  h-100">
+                                <div class="col-12 col-md-6 col-lg-7 order-2 order-md-1 p-5 p-md-4 texto">
+
+                                    <h4 class="my-4 p-0 pb-1">Slide 3</h4>
+                                    <p>Mauris quis nisi ex. <a href='http://google.com' target='_blank'>Vivamus et sodales ipsum</a>, vulputate interdum nisl. Proin sit amet tellus sem. Etiam fringilla, diam et pellentesque sodales, mi est maximus ex, vitae malesuada augue tortor vitae nisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac luctus eros, quis lobortis odio. Morbi in massa quis lorem porttitor tempus. </p>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-5 order-1 order-md-2 p-0">
+                                    <img class="img-fluid rounded-right mx-auto d-none d-md-block" src="img/img-vertical-slider.jpg" alt="" title="Fonte: Nome do autor / Nome do Banco de Imagens">
+                                    <img class="img-fluid rounded-top d-block d-md-none" src="img/img-mobile.jpg" alt="Descreva a imagem. Até 125 caracteres" title="Fonte: nome do Autor / Nome do Banco de Imagens">
+                                </div>
+                            </div>
+                        </article>
+                        </div>
+
+                        <a class="carousel-control-prev" href="#carousel4" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon dark-arrow" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carousel4" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon dark-arrow" aria-hidden="true"></span>
+
+                        <span class="sr-only">Próximo</span>
+                        </a>
+                    </div>
+                <!--Fim do caroussel inner-->
+                </div>
+            </section>
+            <!--Fim do Slider-->
+
           </div> <!--Fim da coluna -->
         </div><!--Fim da row-->    
       </div> <!-- fim container -->
     </section><!-- #slider -->
 
     <!--==========================
-      Bloco 11 - Tabela
+      Bloco 12 - Tabela
     ============================-->
-    <section id="topico11" class="bg-section pt-5">
+    <section id="topico12" class="bg-section pt-5">
       <div class="container">
         <div class="section-header">
           <p class="headline-small text-center">Recurso 11</p>
@@ -1621,7 +1853,7 @@
             <!--Início tabela horizontal-->
             <div class="row mt-3 mb-5">
               <div class="col-12">
-                <div class="table-responsive serie3" data-aos="fade-up">
+                <div class="table-responsive" data-aos="fade-up">
                   <table class="table table-bordered">
                     <thead>
                       <tr>
@@ -1675,9 +1907,9 @@
     </section><!-- #tabela-->
 
     <!--==========================
-      Bloco 12 - Textos e Imagens
+      Bloco 13 - Textos e Imagens
     ============================-->
-    <section id="topico12" class="bg-section3 pt-5">
+    <section id="topico13" class="bg-section3 pt-5">
       <div class="container">
         <div class="section-header">
           <p class="headline-small text-center">Recurso 12</p>
@@ -1694,7 +1926,7 @@
                <div class="col-12">
                  <!-- Texto e Imagem à direita -->
                  <div class="row justify-content-center align-items-center">
-                   <div class="col-12 col-lg-7 order-2 order-lg-1">
+                   <div class="col-12 col-md-7 order-2 order-md-1">
                      <p>Este texto está alinhado pelo centro. A classe que configura isso é a <strong>align-items-center</strong>. Basta adicioná-la.</p>
 
                      <p>O simples acesso a escola não garante uma educação de qualidade e nem mesmo o acesso ao
@@ -1707,7 +1939,7 @@
                        emancipatórias (MÉSZAROS, 2014). </p>
                    </div>
 
-                   <div class="col-12 col-lg-5 order-1 order-lg-2">
+                   <div class="col-12 col-md-5 order-1 order-md-2">
                      <img class="img-fluid rounded mx-auto d-block mb-3" src="img/img.jpg" alt="" title="Fonte: Nome do autor / Nome do Banco de Imagens">
                      <p class="source text-center">Fonte: Freepik.</p>
                    </div>
@@ -1720,12 +1952,12 @@
 
              <!-- Texto e Imagem à esquerda -->
              <div class="row justify-content-center mt-5">
-               <div class="col-12 col-lg-5">
+               <div class="col-12 col-md-5">
                  <img class="img-fluid rounded mx-auto d-block mb-3" src="img/img.jpg" alt="" title="Fonte: Nome do autor / Nome do Banco de Imagens">
                  <p class="source text-center">Fonte: Pexels</p>
                </div>
 
-               <div class="col-12 col-lg-7">
+               <div class="col-12 col-md-7">
                 <p>Este texto está alinhado pelo topo.</p>
                 <p>Uma das características da Educação aberta como vimos, é a possibilidade de criar, usar e
                    compartilhar recursos abertos sem impedimentos legais. Para isso, tem sido muito utilizado as
@@ -1749,9 +1981,9 @@
     </section><!-- #texto-e-imagem-->
 
      <!--==========================
-      Bloco 13 - Timeline Vertical
+      Bloco 14 - Timeline Vertical
     ============================-->
-    <section id="topico13" class="bg-section2 pt-5">
+    <section id="topico14" class="bg-section2 pt-5">
       <div class="container">
         <div class="section-header">
           <p class="headline-small text-center">Recurso 13</p>
@@ -1962,9 +2194,9 @@
     </section><!-- #timeline-vertical-->
 
     <!--==========================
-      Bloco 14 - Timeline ZigZag
+      Bloco 15 - Timeline ZigZag
     ============================-->
-    <section id="topico14" class="bg-section3 pt-5">
+    <section id="topico15" class="bg-section3 pt-5">
       <div class="container">
         <div class="section-header">
           <p class="headline-small text-center">Recurso 14</p>
@@ -1990,11 +2222,11 @@
                           </div>
                           <div class="col-10 px-0">
                               <div class="row align-items-center justify-content-lg-start justify-content-center">
-                                  <div class="col-12 col-lg-5 pl-4">
+                                  <div class="col-12 col-md-5 col-lg-5 pl-4">
                                       <img class="img-fluid rounded mx-auto d-block mb-3"
                                       src="img/img.jpg" alt="" title="Fonte: nome do autor / Nome do banco de imagens">
                                   </div>
-                                  <div class="col-12 col-lg-6 pl-4">
+                                  <div class="col-12 col-md-12 col-lg-6 pl-4">
                                       <h5>Texto e imagem</h5>
                                       <p>Este texto tem aproximadamente 630 caracteres com espaços. Mas pode variar, dependendo da necessidade. Tente deixar uma quantidade que não deforme muito a linha do tempo. Textos muito longos prejudicam a leitura neste recurso. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ultrices vulputate sapien at molestie. Fusce imperdiet ligula quis nulla ultrices condimentum. Nulla in tellus rhoncus, porta quam sit amet, lacinia turpis. Suspendisse magna turpis, ultricies eget turpis nec, interdum suscipit nisi. Curabitur enim enim, iaculis consequat efficitur vel, ultrices sed nibh. Sed congue pellentaesque sapien.</p>
                                   </div>
@@ -2048,11 +2280,11 @@
                           </div>
                           <div class="col-10 px-0">
                             <div class="row align-items-center justify-content-lg-start justify-content-center">
-                                <div class="col-12 col-lg-5 pl-4">
+                                <div class="col-12 col-md-5 col-lg-5 pl-4">
                                     <img class="img-fluid rounded mx-auto d-block mb-3"
                                     src="img/img.jpg" alt="" title="Fonte: nome do autor / Nome do banco de imagens">
                                 </div>
-                                <div class="col-12 col-lg-6 pl-4">
+                                <div class="col-12 col-md-12 col-lg-6 pl-4">
                                     <h5>Texto menor e imagem</h5>
                                     <p>Atenção que o último ítem desta timeline tem uma classe chamada top.</p>
                                 </div>
@@ -2067,10 +2299,10 @@
       </div> <!-- fim container -->
     </section><!-- #timeline-zigzag-->
 
-      <!--==========================
-      Bloco 15 - Timeline Horizontal
+    <!--==========================
+      Bloco 16 - Timeline Horizontal
     ============================-->
-      <section id="topico15" class="bg-section3 pt-5">
+      <section id="topico16" class="bg-section3 pt-5">
         <div class="container">
           <div class="section-header">
             <p class="headline-small text-center">Recurso 15</p>
@@ -2364,10 +2596,93 @@
           </div>
         </div>
         <!-- Fim de Timeline Horizontal 2 -->
-          
-          
-        
       </section><!-- #timeline-horizontal-->
+
+  <!--==========================
+      Bloco 17 - Vídeo
+    ============================-->
+    <section id="topico17" class="bg-section3 pt-5">
+      <div class="container">
+        <div class="section-header">
+          <p class="headline-small text-center">Recurso 16</p>
+          <h3 class="section-title">Vídeo</h3>
+          <span class="section-divider serie3 middle"></span>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-10">
+            <p>A seguir mostramos 2 opções para inclusão de vídeos no html: ou por embed (vídeo de Youtube ou Vimeo) e um vídeo local.</p>
+
+            <h5 class="my-4 p-0 pb-1 mt-5">Vídeo (embed de plataformas como Youtube, Vimeo, Educare etc)</h5>
+
+            <!--Video (embed Youtube ou Vimeo) -->
+            <div class="row justify-content-center mt-5">
+                <div class="col-11 col-lg-8 p-0">
+                  <div class="embed-responsive embed-responsive-16by9">
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/3vijLre760w" frameborder="0"
+                          allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                  </div>
+                  <p class="reference-title text-center">Vídeo 1 - Rainforests 101 | National Geographic</p>
+                  <p class="source text-center">Fonte: <a href='https://www.youtube.com/watch?v=3vijLre760w' target='_blank'>National Geographic (2019)</a></p>
+              </div>
+              <!--Fim do video -->
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-10">
+            <h5 class="my-4 p-0 pb-1">Vídeo (arquivo local)</h5>
+              <!-- Video (a partir de um arquivo local) -->
+              <div class="row justify-content-center mt-5">
+                  <div class="col-11 col-lg-8 p-0">
+                      <video width="100%" controls poster="img/video-local.jpg">
+                          <source src="img/video-local.mp4" type="video/mp4">
+                          Seu navegador não suporta carregar o vídeo.
+                        </video>
+                      <p class="reference-title text-center">Vídeo 2 - Flying Over Mountain Ridge</p>
+                      <p class="source text-center">Fonte: <a href="https://www.videvo.net/video/flying-over-mountain-ridge/457522/" target="_blank">Stand Up for Nature</a>.</p>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-12 col-lg-10">
+            <h5 class="my-4 p-0 pb-1">Vídeo alinhado à direita</h5>
+
+            <!-- Texto e Vídeo à direita -->
+            <div class="row justify-content-center align-items-center">
+              <div class="col-12 col-md-6 order-2 order-md-1">
+                <p>Este texto está alinhado pelo centro. A classe que configura isso é a <strong>align-items-center</strong>. Basta adicioná-la.</p>
+
+                <p>O simples acesso a escola não garante uma educação de qualidade e nem mesmo o acesso ao
+                  conhecimento.
+                  Assim, compreendemos que as ações vão muito além dos espaços da sala de aula. Mészáros - citando
+                  Gramsci- ressaltou que “educar é colocar fim à separação entre Homo faber e Homo sapiens; é
+                  resgatar o
+                  sentido estruturante da educação e de sua relação com o trabalho, as suas possibilidades
+                  criativas e
+                  emancipatórias (MÉSZAROS, 2014). </p>
+              </div>
+
+              <div class="col-11 col-md-6 order-1 order-md-2">
+                <!--Video (embed Youtube ou Vimeo) -->
+                <div class="row justify-content-center mt-5">
+                  <div class="col-12 p-0">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/3vijLre760w" frameborder="0"
+                            allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                    <p class="reference-title text-center">Vídeo 1 - Rainforests 101 | National Geographic</p>
+                    <p class="source text-center">Fonte: <a href='https://www.youtube.com/watch?v=3vijLre760w' target='_blank'>National Geographic (2019)</a></p>
+                </div>
+                <!--Fim do video -->
+                </div>
+            </div>
+            <!-- Fim de texto e Vídeo à direita -->
+          </div>
+
+        </div>
+      </div> <!-- fim container -->
+
+    </section><!-- #Vídeo-->
 
     <!--==========================
       Navegação entre aulas
@@ -2421,6 +2736,7 @@
   <script src="lib/superfish/superfish.min.js"></script>
   <script src="lib/magnific-popup/magnific-popup.min.js"></script>
   <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/audio/dist/js/green-audio-player.js"></script>
 
   <!--Ionicons-->
   <script src="https://unpkg.com/ionicons@4.4.2/dist/ionicons.js"></script>
@@ -2452,6 +2768,29 @@
   <!-- Para fazer includes de HTML dentro do HTML -->
   <script>
     includeHTML();
+  </script>
+
+  <!-- Para inicializar o áudio para Podcast -->
+  <script>
+      document.addEventListener('DOMContentLoaded', function() {
+    GreenAudioPlayer.init({
+        selector: '.player',
+        stopOthersOnPlay: true
+    });
+
+    GreenAudioPlayer.init({
+        selector: '.player-with-download',
+        stopOthersOnPlay: true,
+        showDownloadButton: true,
+        enableKeystrokes: true
+    });
+
+    GreenAudioPlayer.init({
+        selector: '.player-with-accessibility',
+        stopOthersOnPlay: true,
+        enableKeystrokes: true
+    });
+});
   </script>
 
 </body>
