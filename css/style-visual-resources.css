@@ -3259,7 +3259,7 @@ FLIPCARD 2.0
     text-align: left;
     margin-bottom: 10px;
     overflow-y: scroll;
-    height: 260px;
+    height: 190px;
     padding: 1rem;
   }
 
@@ -3298,11 +3298,11 @@ FLIPCARD 2.0
   }
 
   .flip-card .flip-card-front .card-title {
-    top: 40%;
+    top: 25%;
   }
 
   .flip-card .flip-card-front .card-footer {
-    top: 50%;
+    top: 40%;
   }
 
   .flip-card .flip-card-front .card-footer .card-btn {
