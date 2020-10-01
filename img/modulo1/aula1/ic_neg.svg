@@ -3,8 +3,8 @@
 <svg version="1.1" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 182.9 127.6" style="enable-background:new 0 0 182.9 127.6;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#F6C042;}
-	.st1{fill:#EA8D4F;}
+	.st0{opacity:0.5;fill:#F6C042;}
+	.st1{fill:#CC3300;}
 </style>
 <g id="Layer_1">
 </g>
@@ -13,7 +13,7 @@
 		<path class="st0" d="M103.5,22.3h-27c-10,0-18.2,8.2-18.2,18.2v27c0,10,8.2,18.2,18.2,18.2h27c10,0,18.2-8.2,18.2-18.2v-27
 			C121.7,30.4,113.5,22.3,103.5,22.3z"/>
 		
-			<image style="overflow:visible;opacity:0.6;enable-background:new    ;" width="321" height="46" xlink:href="5C2D6A354D8014A1.png"  transform="matrix(0.3532 0 0 0.3532 34.7471 94.0521)">
+			<image style="overflow:visible;opacity:0.6;enable-background:new    ;" width="321" height="46" xlink:href="5C2D6A354D8014A0.png"  transform="matrix(0.3532 0 0 0.3532 34.7471 94.0521)">
 		</image>
 		<path class="st1" d="M125.8,68.7l-15.2-15.2l15.2-15.2c2.4-2.4,2.4-6.3,0-8.7l-10.5-10.5c-2.4-2.4-6.3-2.4-8.7,0L91.4,34.3
 			L76.2,19.1c-2.4-2.4-6.3-2.4-8.7,0L57,29.5c-2.4,2.4-2.4,6.3,0,8.7l15.2,15.2L57,68.7c-2.4,2.4-2.4,6.3,0,8.7l10.5,10.5

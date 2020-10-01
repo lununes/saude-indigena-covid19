@@ -341,7 +341,7 @@ Box de Citação Curta
 
 blockquote {
   margin: 0 0 20px;
-  font-size: 17px;
+  /*font-size: 17px;*/
 }
 
 .box-quote .quote-autor {
