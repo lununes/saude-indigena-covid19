@@ -421,7 +421,8 @@ b, strong {font-weight: 700;}
   top: 30px !important;
   border: 1px solid #e8edee;
   overflow-x:hidden;
-  height: 60vh;
+  height: auto;
+  max-height: 400px;
 }
 
 @media (min-width:992px){
@@ -787,7 +788,7 @@ b, strong {font-weight: 700;}
 }
 
 .nav-menu > li {
-  margin-left: 10px;
+  margin-left: 5px;
 }
 
 .nav-menu ul li {
