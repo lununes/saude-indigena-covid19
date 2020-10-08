@@ -282,12 +282,12 @@ Box de Citação Curta
   background: #fff;
   box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.2);
   border-radius: 6px;
-  margin-bottom: 30px;
   border: 1px solid #f4f4f4;
 }
 
-.box-quote p {
-  font-size: 15px;
+.box-quote p,
+.box-quote ul  {
+  font-size: 0.95rem;
 }
 
 .box-quote p.circle {
@@ -299,8 +299,8 @@ Box de Citação Curta
 }
 
 .box-quote ul li {
-  font-style: italic;
-  list-style: circle;
+  list-style: disc;
+  margin-bottom:0.5rem;
 }
 
 .box-quote ul li i {
@@ -3229,7 +3229,8 @@ FLIPCARD 2.0
 
   .flip-card .flip-card-front .button svg {
     fill: #fff;
-    width: 40%;
+    /* width: 40%; */
+    width: 3rem;
   }
 
   .flip-card .flip-card-front .button {
@@ -3303,7 +3304,8 @@ FLIPCARD 2.0
   }
 
   .flip-card .flip-card-front .card-footer {
-    top: 40%;
+    /* top: 40%; */
+    top:30%;
   }
 
   .flip-card .flip-card-front .card-footer .card-btn {
@@ -3339,15 +3341,4 @@ FLIPCARD 2.0
   /*Fundos para flipcard*/
   .flip-card .fundo1 {
     background: linear-gradient(40deg, rgba(119, 89, 89, 0), rgba(255, 255, 255, .5)), url(../img/bg2-flipcard.jpg);
-  }
-
-  @media (min-width: 992px) {
-
-    .flip-card .flip-card-front .card-footer .card-btn {
-      width: 50%;
-      position: absolute;
-      top: -1.5rem;
-      left: 25%;
-    }
-
   }

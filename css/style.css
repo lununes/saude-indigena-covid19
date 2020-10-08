@@ -108,11 +108,6 @@ a:hover {color: var(--laranja-over);}
 
 a:active, a:focus {color: var(--laranja-pressed);}
 
-p {
-  padding: 0;
-  margin: 0 0 20px 0;
-}
-
 h1, h2, h3 {font-family: 'Montserrat', sans-serif;}
  
 h4, h5, h6 {
@@ -126,6 +121,8 @@ h4, h5, h6 {
 h4, h5, h6 {font-style: italic;}
 
 h5, h6 {margin-bottom:10px;}
+
+ul li {margin-bottom:1rem;}
 
 b, strong {font-weight: 700;}
 
@@ -570,23 +567,31 @@ b, strong {font-weight: 700;}
   #abertura.programa .intro-text{padding-top:110px;}
 }
 
+#abertura h1,
 #abertura h2 {
   font-family: 'Montserrat', sans-serif;
   color: #fff;
   text-transform:uppercase;
   margin: 30px 0;
   padding: 0 15px;
-  font-size: 1.75rem;
   font-weight: 700;
   line-height: 1.25;
 }
 
+
+#abertura h1 {font-size: 2.3rem;}
+#abertura h2 {font-size: 1.75rem;}
+
+#abertura h1 span,
 #abertura h2 span {
   font-weight:300;
   font-style: italic;
 }
 
 @media (max-width:320px) {
+
+  #abertura h1 {font-size:1.65rem}
+
   #abertura h2 {font-size:1.5rem}
 }
 
@@ -598,6 +603,7 @@ b, strong {font-weight: 700;}
 }
 
 @media (min-width: 768px) {
+  #abertura h1 {font-size: 2.2rem}
   #abertura h2 {
     font-size: 2rem;
     line-height: 1;
@@ -605,6 +611,7 @@ b, strong {font-weight: 700;}
 }
 
 @media (min-width: 929px) {
+  #abertura h1 {font-size: 2.7rem}
   #abertura h2 {
     font-size: 2.5rem;
   }
