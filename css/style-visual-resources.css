@@ -59,6 +59,7 @@
 }
 .icon-headphones:before {
   content: "\e910";
+  color: #ff8831;
 }
 .icon-cogs:before {
   content: "\e995";
@@ -3242,6 +3243,10 @@ FLIPCARD 2.0
     background-color: #fff;
     text-shadow: none;
   }
+
+  .flip-card .button:hover svg {
+    fill:var(--laranja-over);
+}
 
   .flip-card .button.return {
     line-height: 3em;
