@@ -1295,14 +1295,6 @@ Lista Simples
   padding: 0.8rem 1.25rem;
 }
 
-
-.obj-lista .list-group-item i {
-  font-size: 30px;
-  padding-right: 4px;
-  color: var(--laranja);
-  line-height: 0px;
-}
-
 .obj-lista .list-group-item i.icon-bullet {
   display: block;
   width: 0.8rem;
