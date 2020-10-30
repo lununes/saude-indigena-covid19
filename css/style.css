@@ -44,7 +44,8 @@
 .bg-topo {
   /* height: 25vh; */
   /* background-attachment: fixed; */
-  background-size: 100% 70%;
+  /* background-size: 100% 70%; */
+  background-size: 110% 100%;
   background-image: url(../img/bg-topo-mobile2.png); 
   background-repeat:no-repeat;
   background-position: center;
@@ -553,6 +554,16 @@ b, strong {font-weight: 700;}
 /* @media (min-width: 1600px) { 
   #abertura .intro-text {padding-top: 230px;}
 } */
+
+#abertura .cta-btn {
+  border:2px solid #fff;
+  color:#fff;
+  padding:10px 40px;
+}
+
+#abertura .cta-btn:hover {
+  border:2px solid var(--laranja-over);
+}
 
 @media (max-width: 768px) {
   #abertura .intro-text {padding-top: 180px;}

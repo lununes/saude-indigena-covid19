@@ -345,13 +345,13 @@ blockquote {
   /*font-size: 17px;*/
 }
 
-.box-quote .quote-autor {
+.quote-autor {
   font-size: 12px;
   font-style: italic;
   margin-bottom: 0px !important;
 }
 
-.box-quote .quote-autor:before {
+.quote-autor:before {
   content: "\2014\00A0";
 }
 
