@@ -633,7 +633,6 @@ b, strong {font-weight: 700;}
   color: var(--preto);
   margin-bottom: 20px;
   padding: 0 15px;
-  font-size: 1.5rem;
 }
 
 .headline-small {
@@ -644,6 +643,46 @@ b, strong {font-weight: 700;}
   margin:0;
   margin-bottom:5px;
   color:var(--marrom-pressed);
+}
+
+#abertura .headline-small {font-size: 1.5rem;}
+
+#abertura .fa-angle-double-down {
+  margin-right:5px;
+  animation: arrow 2s infinite;
+  -webkit-animation: arrow 2s infinite;
+}
+
+@keyframes arrow {
+  0% {
+    opacity: 0;
+    transform: translateY(-5px)
+  }
+  80% {
+    opacity: 1;
+    transform: translateY(5px)
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(8px)
+  }
+}
+
+@-webkit-keyframes arrow {
+/*Safari and Chrome*/
+
+  0% {
+    opacity: 0;
+    transform: translateY(-5px)
+  }
+  80% {
+    opacity: 1;
+    transform: translateY(5px)
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(8px)
+  }
 }
 
 @media (min-width: 768px) {
