@@ -633,6 +633,7 @@ b, strong {font-weight: 700;}
   color: var(--preto);
   margin-bottom: 20px;
   padding: 0 15px;
+  font-size: 1.15rem;
 }
 
 .headline-small {
