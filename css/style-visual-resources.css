@@ -593,10 +593,13 @@ Boxes de Destaque: Atenção, Saiba mais etc
   font-size: 35px;
 }
 
-/* Ajuste para não sumir o ícone de headphone, quando estiver dentro de um box para escutar */
+/* Ajuste para não sumir o ícone de headphone e vídeo, quando estiverem 
+dentro de boxes para escutar e vídeo, respectivamente */
 
 .para-escutar .icon-headphones.link,
-.para-escutar .icon-headphones.link::before {
+.para-escutar .icon-headphones.link::before,
+.video .icon-ic-video.link,
+.video .icon-ic-video.link::before  {
   background:transparent;
   border:none;
   box-shadow: none;
